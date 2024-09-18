@@ -22,7 +22,7 @@ Before running the code, make sure you have the following installed:
 1. Clone the repository to your local machine:
 
     ```bash
-    https://github.com/Yogeshhyogi/Text-Encryption.git
+    https://github.com/lu-dwig/Text-Encryption.git
     ```
 
 2. Navigate to the project directory:
