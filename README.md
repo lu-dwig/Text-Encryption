@@ -22,7 +22,7 @@ Before running the code, make sure you have the following installed:
 1. Clone the repository to your local machine:
 
     ```bash
-    https://github.com/lu-dwig/Text-Encryption.git
+   https://github.com/lu-dwig/Text-Encryption   
     ```
 
 2. Navigate to the project directory:
@@ -64,14 +64,13 @@ Before running the code, make sure you have the following installed:
 3. Open the `index.html` file located in `src/client` and run it using a live server or by opening it in a web browser.
 
 # Hosting the Webpage
-
 To host the webpage locally or make it accessible over the internet, follow these steps:
 
 1. **Hosting Locally**: Follow the steps mentioned above in "Local Development."
 
 2. **Accessing Locally**: Open a web browser and enter the local server's URL (e.g., `http://localhost:8000`).
 
-3. **Hosting with Ngrok**: Follow the instructions provided in the previous README file under the "Ngrok" section.
+3. **Hosting with Ngrok**: Follow the instructions provided in the file under the "Ngrok" section.
 
 ## Instruction
 

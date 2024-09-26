@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'client', 'index.html'));
 });
 
-app.post('/encrypt', (req, res) => {
+app.post('./encrypt', (req, res) => {
     try {
         const data = encrypt(req.body.text, req.body.encryptionKey);
         res.json({ encryptedText: data });
@@ -23,7 +23,7 @@ app.post('/encrypt', (req, res) => {
     }
 });
 
-app.post('/decrypt', (req, res) => {
+app.post('./decrypt', (req, res) => {
     try {
         const decryptedText = decrypt(req.body.encryptedText, req.body.encryptionKey);
         res.json({ decryptedText });
